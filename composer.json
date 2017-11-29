@@ -1,0 +1,26 @@
+{
+    "name": "ctrlaltdylan/courier",
+    "description": "A simple wrapper for the free SMS API provider TextBelt.",
+    "authors": [
+        {
+            "name": "Dylan Pierce",
+            "email": "me@dylanjpierce.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.5.*",
+        "psy/psysh": "0.7.*"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Courier\\": "src/"
+        }
+    },
+    "config-bin" : {
+        "bin-dir" : "bin"
+    }
+}
